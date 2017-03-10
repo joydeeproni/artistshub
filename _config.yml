@@ -1,9 +1,16 @@
 # Site settings
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: artist@email
+title: J d . S
+description: Musician | Metalhead | Maniac
+email: joydeep.roni@gmail.com
 
 
+
+# Change the site default images and content here!
+logo: logo.svg
+bg-img: hero-bg.jpg
+
+avatar: face.jpg
+blurb: <p>I have a soft corner for minimal designs. This is a sample of a website which I coded & designed myself as a part of online learning of building responsive websites. Check out my <a href="https://www.joydeeproni.com">blog</a>.</p>
 
 # Build settings
 markdown: kramdown

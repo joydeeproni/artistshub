@@ -162,7 +162,7 @@ td, th {
  * ------------------------------------	 */
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  color: #333333;
   font-weight: bold; }
 
 .gigantic {
@@ -201,7 +201,7 @@ strong {
   font-weight: bold; }
 
 hr {
-  border: solid #ddd;
+  border: solid #dddddd;
   border-width: 1px 0 0;
   clear: both;
   margin: 10px 0 30px;
@@ -237,11 +237,11 @@ body {
 /* Basic Styles
  * ------------------------------------	 */
 body {
-  background: #fff;
+  background: white;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
-  color: #666;
+  color: #666666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -262,7 +262,7 @@ header, footer {
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
-  background-blend-mode: soft-light, normal; }
+  background-blend-mode: overlay, normal; }
 
 header {
   height: 450px;
@@ -272,25 +272,27 @@ header {
     width: 50px;
     float: left;
     margin: 10px 0 0 30px; }
+    header .logo path {
+      fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: white; }
+      color: rgba(0, 0, 0, 0.7); }
       header nav a:hover {
-        color: rgba(255, 255, 255, 0.5); }
+        color: black; }
   header h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 100px;
-    color: rgba(255, 255, 255, 0.6); }
+    padding-top: 100px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -298,7 +300,7 @@ header {
   header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
-    color: rgba(255, 255, 255, 0.6);
+    color: white;
     line-height: 1; }
 
 footer .lockup {
@@ -314,14 +316,13 @@ footer .lockup {
       margin: 0;
       text-transform: uppercase;
       font-size: 12px;
-      letter-spacing: 0.5em;
-      color: white; }
+      color: rgba(0, 0, 0, 0.4); }
     footer .lockup .content-wrap a {
-      color: white;
+      color: rgba(0, 0, 0, 0.5);
       display: inline-block;
       margin-right: 30px; }
       footer .lockup .content-wrap a:hover {
-        color: rgba(255, 255, 255, 0.7); }
+        color: rgba(0, 0, 0, 0.7); }
 
 .face-lockup {
   max-width: 780px;
@@ -427,7 +428,7 @@ footer .lockup {
 .skill-lockup {
   max-width: 540px;
   margin: 100px auto;
-  color: #999;
+  color: #999999;
   background: pinkm; }
   .skill-lockup:after {
     content: "";
@@ -451,7 +452,7 @@ footer .lockup {
         display: block;
         height: 10px;
         width: 10px;
-        background: #fff;
+        background: white;
         border-radius: 50%;
         margin: 2px; }
 
